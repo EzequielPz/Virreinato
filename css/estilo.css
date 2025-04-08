@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(240, 195, 31);
+    color:black;
+  }
+  header {
+    background-color: rgb(222, 245, 71);
+    background-position: center;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    border: 5px solid rgb(14, 8, 8);
+    border-radius: 8px;
+  }
+  h1 {
+    text-align: center;
+    font-weight:700;
+    font-size: 35px;
+  }
+  div {
+    background-color: rgb(124, 77, 7);
+    width: auto;
+    padding: 15px;
+    margin: 30px;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 8px;
+  }
+  .imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 600px;
+    height: 300px;
+    border-radius: 8px;
+  }
+  a:link,
+a:visited {
+  background-color: rgb(189, 136, 30);
+  color: white;
+  padding: 14px 25px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(126, 120, 120);
+  transform: translateY(-2px);
+}
